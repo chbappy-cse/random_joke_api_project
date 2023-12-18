@@ -1,7 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #fab22e;
 }
 .joke_body{
-    
+    width: 80vmin;
+    padding: 50px 40px;
+    background: #15161a;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px rgba(97, 63, 0, 0.4);
+}
+.joke_body span{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+.joke_body p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    line-height: 35px;
+    margin: 30px 0; 
+    text-align: center;
+}
+.joke_body button{
+    display: block;
+    background: #fab22e;
+    border: none;
+    padding: auto;
+    padding: 5px;
+    font-size: 18px;
+    color: #171721;
+    margin: 0 auto;
+    border-radius: 5px;
+    cursor: pointer;
 }
